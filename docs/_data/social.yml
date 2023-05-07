@@ -1,0 +1,20 @@
+- name: GitHub
+  link: https://github.com/fbufler
+  icon:
+    source: fa
+    name: fa-github
+    type: fab
+    
+- name: LinkedIn
+  link: https://www.linkedin.com/in/florian-bufler-a40b63174/
+  icon:
+    source: fa
+    name: fa-linkedin-in
+    type: fab
+  
+- name: Email
+  link: mailto:florian.bufler@gmail.com
+  icon:
+    source: fa
+    name: fa-envelope
+    type: far

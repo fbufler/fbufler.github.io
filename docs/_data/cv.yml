@@ -1,0 +1,76 @@
+professional_experience:
+    - company_name: GROW platform
+      logo: grow_logo.jpeg
+      positions:
+      - position: Cloud Developer
+        employment_type: Full-Time
+        location: Ludwigsburg, Baden-Würtemberg, Germany
+        start_date: Jan 2023
+        end_date: today
+        description: >
+            Cloud Native Software development with Azure stack, Pulumi, Typescript and Github workflows
+
+    - company_name: Robert Bosch GmbH
+      logo: bosch_logo.jpeg
+      positions:
+      - position: DevOps Engineer
+        employment_type: Full-Time
+        location: Weilimdorf, Baden-Würtemberg, Germany
+        start_date: Okt 2021
+        end_date: Dec 2022
+        description: >
+            During my job as a DevOps engineer I worked on multiple topics mostly connected with cloud based software development. 
+            I started with infrastructure automation using Pulumi, Microsoft Azure and Typescript.      
+
+education:
+    - university: Duale Hochschule Baden-Württemberg (DHBW)
+      location: Stuttgart, Germany
+      degree: Bachelor of Science (B.Sc.)
+      specialization: IT Automotive
+      start_date: Okt 2018
+      end_date: Sep 2021
+      grade: true
+      thesis: Entwicklung, Implementierung und Evaluation eines automatisierten und effizienten Integrationskonzepts für eine Vielzahl an AUTOSAR Adaptive Applikationen
+      logo: dhbw_logo.jpeg
+
+language_skills:
+    - language: German
+      level: Native
+      logo: flag_germany.png
+      
+    - language: English
+      level: Fluent
+      logo: flag_english.png
+
+expertises:
+    - expertise: GitHub (as a platform)
+    - expertise: Azure Cloud
+    - expertise: Cloud Native Software Development
+    - expertise: DevOps Engineering
+    - expertise: Software Engineering
+      
+programming:
+    - language: JavaScript
+      level: Professional
+      logo: programming_javascript.png
+      
+    - language: TypeScript
+      level: Professional
+      logo: programming_typescript.png 
+
+    - language: Go
+      level: Professional
+      logo: programming_go.png
+
+    - language: Python
+      level: Advanced
+      logo: programming_python.png
+
+    - language: C
+      level: Advanced
+      logo: programming_c.png
+
+    - language: C++
+      level: Advanced
+      logo: programming_cpp.png
+      

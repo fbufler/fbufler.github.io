@@ -1,0 +1,16 @@
+- name: Projects
+  link: /projects.html
+  id: nav_projects
+- name: CV
+  link: /cv.html
+  id: nav_cv
+- name: Programming
+  link: /programming.html
+  id: nav_programming
+- name: Conferences
+  link: /conferences.html
+  id: nav_conferences
+- name: About me
+  link: /about.html
+  id: nav_about
+

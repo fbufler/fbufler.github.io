@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Florian Bufler" />
+    <meta name="keywords" content="cloudnative devops go typescript bachend k8s kube4life"/>
+    <meta name="description" content="Personal website of Florian Bufler providing updates on academic, professional and private activities."/>
+    <meta property="og:title" content="{{ page.title }}"/>
+    <meta property="og:description" content="Personal website of Florian Bufler providing updates on academic, professional and private activities."/>
+    <meta property="og:url" content="https://fbufler.github.io/"/>
+    <title>{{ page.title }}</title>
+    <link rel="icon" href="https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortFlat&accessoriesType=Blank&hairColor=Blonde&facialHairType=Blank&clotheType=Hoodie&clotheColor=Black&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Light">
+    {% if site.mode == 'dark' %}
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/dark_mode.css" id="mode">
+    {% else %}
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/bright_mode.css" id="mode">
+    {% endif %}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-timeline@3.0.5/dist/css/bulma-timeline.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+
+    <script defer src="https://use.fontawesome.com/releases/v5.11.0/js/all.js"></script>
+    <script src="{{site.baseurl}}/assets/js/navbar-burger.js"></script>
+    <script src="{{site.baseurl}}/assets/js/set_dark_mode.js"></script>
+    {% if site.google_analytics and jekyll.environment == 'production' %}
+	{% include analytics.html %}
+	{% endif %}
+  </head>
+  <body>
+    <section class ="hero is-fullheight">  
+      {% include navigation.html icon-size="lg" %}
+      <div class="hero-body">
+        <div class="container">	        
+          {{ content }}
+        </div>
+      </div>
+      {% include footer.html icon-size="lg" %}
+    </section>
+  </body>
+</html>
